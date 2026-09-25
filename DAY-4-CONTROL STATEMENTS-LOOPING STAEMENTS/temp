@@ -1,0 +1,83 @@
+count = 0
+while (count < 9):
+    print ('The count is:', count)
+    count = count + 1
+print ("Good bye!")
+
+count=0
+while count < 7:
+    print (count, "is less than 7")
+    count  = count + 1
+else:
+    print("Loop End")
+
+
+for i in range(0, 30, 3):
+    print(i)
+
+
+for i in range(0, 50, 5):
+    print(i)
+
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print (i)
+
+
+
+for i in range(1, 4):
+    pass
+print("Loop completed")
+for i in range(1, 4):
+    print("Loop completed")
+
+OUTPUT:
+
+The count is: 0
+The count is: 1
+The count is: 2
+The count is: 3
+The count is: 4
+The count is: 5
+The count is: 6
+The count is: 7
+The count is: 8
+Good bye!
+0 is less than 7
+1 is less than 7
+2 is less than 7
+3 is less than 7
+4 is less than 7
+5 is less than 7
+6 is less than 7
+Loop End
+0
+3
+6
+9
+12
+15
+18
+21
+24
+27
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+1
+2
+4
+5
+Loop completed
+Loop completed
+Loop completed
+Loop completed
