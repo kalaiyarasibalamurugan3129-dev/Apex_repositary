@@ -26,15 +26,64 @@ for i in range(1, 6):
     print (i)
 
 
-
 for i in range(1, 4):
     pass
 print("Loop completed")
 for i in range(1, 4):
     print("Loop completed")
 
-OUTPUT:
+a = 33
+b = 200
 
+if b > a:
+    print("b is greater than a")
+
+a = 200
+b = 33
+if b > a:
+    print("b is greater than a")
+else:
+    print("b is not greater than a")
+
+a  = 200
+b = 20
+if b  > a:
+    print("b is greater than a")
+elif a == b:
+    print("a and b are equal")
+else:
+    print("a is greater than b")
+
+
+var = 100
+if var < 200:
+    print("Expression value is less than 200")
+    if(var > 150 and var<170):
+        print("Which is greater than 150 less than 170")
+    elif(var == 100 or var>180):
+        print("which is equal to 100 or greater than 180")
+    elif var == 50:
+        print("Which is 50")
+    elif var < 50:
+        print ("Expression value is less than 50")
+    else:
+        print("Could not find true expression")
+
+        print("Good bye!")
+
+
+name = "John"
+print("Hello, %s!" % name)
+
+name = "John"
+age = 23
+print("%s %d yeears old."%(name,age))
+
+name = "John"
+age = 23
+print("My name is {} and  i am {} years old.".format(name,age))
+
+OUTPUT:
 The count is: 0
 The count is: 1
 The count is: 2
@@ -81,3 +130,11 @@ Loop completed
 Loop completed
 Loop completed
 Loop completed
+b is greater than a
+b is not greater than a
+a is greater than b
+Expression value is less than 200
+which is equal to 100 or greater than 180
+Hello, John!
+John 23 yeears old.
+My name is John and  i am 23 years old.
